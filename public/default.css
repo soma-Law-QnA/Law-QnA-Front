@@ -1,6 +1,8 @@
 :root {
     --default-white: #f2f2f2;
     --default-black: #0d0d0d;
+	--button-border: #a6a6a6;
+    --button-darker: #0d0d0d;
 }
 
 * {
@@ -9,9 +11,17 @@
 }
 
 body {
+	margin: 0;
+  	padding: 0;
+  	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+	
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./Primary-Law-Publishing-Services-Polaroid-1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./tie.jpg");
     background-size: cover;
     background-position: center;
     
@@ -31,9 +41,9 @@ header {
 .description {
     color: var(--default-white);
     margin: 40px;
-    transition: 1s;
+	margin-bottom: 50px;
     overflow: hidden;
-    transition: all 1s;
+    transition: all .2s ease-in;
 }
 
 .description h1 {
@@ -93,6 +103,10 @@ header {
     color: var(--default-black);
 }
 
+.search-status h2 {
+    color: var(--default-white);
+}
+
 .grid-wrapper {
     display: flex;
     justify-content: center;
@@ -139,6 +153,12 @@ header {
 .card article {
     margin: 20px;
     color: var(--default-black);
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: auto;
 }
 
 .source {
@@ -147,4 +167,73 @@ header {
 
 .answer {
     font-weight: bold;
+}
+
+.more {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--button-border);
+    transition: border-color .2s ease-in;
+}
+
+.more:hover a {
+    color: var(--button-darker);
+}
+
+.more:hover {
+    border: 2px solid var(--button-darker);
+}
+
+.more a {
+    text-decoration: none;
+    color: var(--button-border);
+    font-weight: bold;
+    transition: color .2s ease-in
+}
+
+.example {
+    color: var(--default-white);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 220px;
+    width: 50%;
+    left: 50%;
+    padding: 0 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.line {
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.line:first-child {
+    animation: anim 12s infinite;
+}
+
+@keyframes anim {
+    0% {
+        margin-top: 0;
+    }
+    16% {
+        margin-top: -40px;
+    }
+    33% {
+        margin-top: -80px;
+    }
+    50% {
+        margin-top : -120px;
+    }
+    66% {
+        margin-top: -80px;
+    }
+    82% {
+        margin-top: -40px;
+    }
+    100% {
+        margin-top: 0;
+    }
 }
