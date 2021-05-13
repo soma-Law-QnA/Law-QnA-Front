@@ -1,6 +1,6 @@
 <h4 align="center"> 
 
-  ![logo](https://user-images.githubusercontent.com/44018094/118128337-b6ea3200-b435-11eb-96c6-b1de5c438e38.png)
+  [![logo](https://user-images.githubusercontent.com/44018094/118128337-b6ea3200-b435-11eb-96c6-b1de5c438e38.png)](https://hackathon-lvgxr.run.goorm.io/)
   
   > 사람에게 질문하듯 자연스러운 법률 검색 서비스
 
