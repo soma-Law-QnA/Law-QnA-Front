@@ -1,1 +1,1 @@
-# 법률 겁색 서비스(Frontend)
+# 법률 검색 서비스(Frontend)
