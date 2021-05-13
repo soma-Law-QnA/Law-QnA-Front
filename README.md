@@ -22,9 +22,26 @@
 ## 🏷️개요
 사람에게 질문하듯 자연어로 검색하면 질문의 의미를 분석하여, 법령 문서에서 조 내용을 검색하고 추론하여 제공하는 서비스 입니다.
 
+[법알못 가이드 바로가기](https://hackathon-lvgxr.run.goorm.io/)
+
 </br>
 
 ## 📈기능 및 동작 예시
+### 메인 페이지
+![image](https://user-images.githubusercontent.com/44018094/118165753-a0f16700-b45f-11eb-9f20-aaac678d0a13.png)
+- 법알못 가이드의 메인 화면 입니다.
+- 검색창에 궁금한 내용을 **자연어**로 질문할 수 있습니다.
+
+</br>
+
+### 검색 결과
+![image](https://user-images.githubusercontent.com/44018094/118164448-19efbf00-b45e-11eb-8d99-0aae906e1cce.png)
+- 검색 결과가 카드뷰로 제공됩니다.
+- 각 카드의 요소에 대한 설명은 다음과 같습니다.
+![카드 상세2](https://user-images.githubusercontent.com/44018094/118169124-8c16d280-b463-11eb-99e9-c5d70c9f9302.png)
+- **상세 법률 보기** 버튼을 통해 해당 법률의 전문을 확인할 수 있습니다.
+
+
 
 
 </br>
