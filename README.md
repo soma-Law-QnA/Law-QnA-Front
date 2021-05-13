@@ -8,7 +8,7 @@
 
 </br>
 
-## 📝기획의도
+## 📝 기획의도
 나에게 무슨 일이 생겼거나 어떤 일을 하기 위해 우리는 가끔 **법**을 알아야 할 필요성이 있습니다.
 
 이럴 때 21세기 정보화 시대에 걸맞춰 우리는 인터넷에 검색을 하려 합니다.
@@ -19,14 +19,14 @@
 
 </br>
 
-## 🏷️개요
+## 🏷️ 개요
 사람에게 질문하듯 자연어로 검색하면 질문의 의미를 분석하여, 법령 문서에서 조 내용을 검색하고 추론하여 제공하는 서비스 입니다.
 
 [법알못 가이드 바로가기](https://hackathon-lvgxr.run.goorm.io/)
 
 </br>
 
-## 📈기능 및 동작 예시
+## 📈 기능 및 동작 예시
 ### 메인 페이지
 ![image](https://user-images.githubusercontent.com/44018094/118165753-a0f16700-b45f-11eb-9f20-aaac678d0a13.png)
 - 법알못 가이드의 메인 화면 입니다.
@@ -46,7 +46,7 @@
 
 </br>
 
-## 👦팀원(ㄱㄴㄷ순서)
+## 👦 팀원(ㄱㄴㄷ순서)
 - 남승원 ([@pukuba](https://github.com/pukuba))
 - 성호준 ([@hjsung809](https://github.com/hjsung809))
 - 이태원 ([@elixter](https://github.com/elixter))
@@ -55,7 +55,7 @@
 
 </br>
 
-## 🔎프로젝트 레포지토리
+## 🔎 프로젝트 레포지토리
 저희는 개발 및 배포의 편의를 위해 Front-end, Back-end 총 2가지의 레포지토리로 분리했습니다.
 
 - Front-end (현재 위치) ([Law-QnA-Front](https://github.com/soma-Law-QnA/Law-QnA-Front))
@@ -64,6 +64,6 @@
 
 </br>
 
-## Reference
+## :green_book: 사용한 Open API
 - https://aiopen.etri.re.kr/guide_rawQA.php
 
