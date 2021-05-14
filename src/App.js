@@ -8,7 +8,7 @@ class App extends Component {
         <header className="App-header">
           <div class="description">
                 <h1>법알못 가이드</h1>
-			  	<h2>이렇게 질문해보세요!</h2>
+			  	<h2>이런 질문은 어때요?</h2>
                 <div class="example">
                     <div class="line">대법원장의 임기는 몇년인가?</div>
                     <div class="line">공인중개사법에서 중개의 의미는?</div>
